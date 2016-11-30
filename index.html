@@ -15,6 +15,84 @@
 		<div class="container">
     		<div class="blurb">
         		<h1>Hi there, I'm Hank Quinlan!</h1>
+			<h1 class="col-md-offset-4">Login</h1>
+<hr />
+<form id="loginForm" class="form-horizontal" method="post" action="/user/login">
+    <fieldset>
+    <!-- Text input-->
+    <div class="form-group">
+        <label class="col-md-4 control-label" for="username">User ID</label>
+        <div class="col-md-4">
+            <input id="username" name="username" placeholder="" class="form-control input-md" required="" type="text">
+        </div>
+    </div>
+    <!-- Password input-->
+    <div class="form-group">
+        <label class="col-md-4 control-label" for="password">Password</label>
+        <div class="col-md-4">
+            <input id="password" name="password" placeholder="" class="form-control input-md" required="" type="password">
+        </div>
+    </div>
+    <!-- Button (Double) -->
+    <div class="form-group">
+        <label class="col-md-4 control-label" for="login"></label>
+        <div class="col-md-8">
+            <button id="login" name="login" class="btn btn-success">Login</button>
+            <button id="sign-up" name="sign-up" class="btn btn-info">Sign Up</button>
+        </div>
+    </div>
+    </fieldset>
+</form>
+
+<script>
+    $(function() {
+        <% if(loggedIn) { %>
+        Alerter.CreateAlert({
+            parent: "#alert-slot",
+            class: "alert-warning",
+            icon: "fa fa-warning",
+            message: "Warning: You are already logged in"
+        });
+        <% } %>
+
+        $("#loginForm").submit(function(e) {
+            e.preventDefault();
+            var contents = serializeForm($(this));
+            $.post(
+                    "/user/login",
+                    contents
+            ).done(function(response) {
+                if(response) {
+                    if(response.result == 1) {
+                        Alerter.CreateTimedAlert({
+                            message: "Successful login. You will be redirected home shortly.",
+                            class: "alert-success",
+                            icon: "fa fa-check",
+                            parent: "#alert-slot",
+                            time: 3
+                        }, function() {
+                            location.href = "/";
+                        });
+                    } else {
+                        Alerter.CreateAlert({
+                            message: "Error: " + response.data,
+                            class: "alert-danger",
+                            icon: "fa fa-warning",
+                            parent: "#alert-slot"
+                        });
+                    }
+                } else {
+                    Alerter.CreateAlert({
+                        message: "There was an error with the server. Try again later.",
+                        class: "alert-danger",
+                        icon: "fa fa-warning",
+                        parent: "#alert-slot"
+                    });
+                }
+            });
+        });
+    });
+</script>
 				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
