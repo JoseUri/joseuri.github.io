@@ -35,3 +35,7 @@ p {
     position: static;
     top:200%;
 }
+body {
+  background-color:pink;
+  opacity:0.8
+}
