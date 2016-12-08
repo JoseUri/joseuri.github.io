@@ -32,3 +32,7 @@
 				context.drawImage(video, 0, 0, 640, 480);
 			});
 		}, false);
+
+  var download = $("<a />", {
+    "download": "image-" + $.now(),
+    "href": objURL,
