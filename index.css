@@ -52,6 +52,8 @@ body {
     font-size: 16px;
     border: none;
     cursor: pointer;
+  position:right;
+  top: 200%;
 }
 
 .dropbtn:hover, .dropbtn:focus {
