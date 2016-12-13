@@ -12,12 +12,11 @@ window.contactDropClick = function(event) {
   }
 }
 
-var sound = new Audio("Vocaroo_s1H2L099Ym9v.ogg");
-sound.preload = 'auto';
-sound.load();
-
-function playSound(volume) {
-  var click=sound.cloneNode();
-  click.volume=volume;
-  click.play();
-}
+    function robloX(){
+        var audio = document.createElement("audio");
+        audio.src = "Vocaroo_s1H2L099Ym9v.ogg";
+        audio.addEventListener("ended", function () {
+            document.removeChild(this);
+        }, false);
+        audio.play();   
+    }
