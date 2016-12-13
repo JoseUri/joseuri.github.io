@@ -3,7 +3,7 @@ h1 {
   font-size:50px;
   font-family: Garadon;
   padding: 100px;
-  position: relative;
+  position: absolute;
   z-index: 1;
   background-color:#EFEFEF;
 }
