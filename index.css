@@ -7,11 +7,12 @@
     font-size: 16px;
     border: none;
     cursor: pointer;
+    position: margin-right;
 }
 
 .dropdown {
-    position: bottom;
     display: inline-block;
+    
 }
 
 .dropdown-content {
