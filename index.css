@@ -1,7 +1,7 @@
 h1 {
   text-align: center;
   font-size:50px;
-  font-family: Arial;
+  font-family: Garadon;
   padding: 100px;
   position: relative;
   z-index: 1;
@@ -46,18 +46,19 @@ body {
 
 
 .dropbtn {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #eeeeee;
+    color: black;
     padding: 16px;
     font-size: 16px;
+    font-family: Garadon;
     border: none;
     cursor: pointer;
   position:right;
-  top: 200%;
+  bottom: 100%;
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
+    background-color: #d4d1cf;
 }
 
 .dropdown {
