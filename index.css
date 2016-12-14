@@ -56,7 +56,6 @@ table, th, td {
 /* HEADING 1 */
 h1 {
     border: 1 px solid #800020;
-    padding: 2px;
     text-align:center;
     background-color: #f5f5dc;
 }
