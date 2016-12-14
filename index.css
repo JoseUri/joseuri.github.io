@@ -55,9 +55,11 @@ table, th, td {
 
 /* HEADING 1 */
 h1 {
-    border: 1 px solid #800020;
+    border: 5 px solid #800020;
     text-align:center;
+    padding: 15px;
     background-color: #f5f5dc;
+    width:50%
 }
 
 
