@@ -1,5 +1,6 @@
 /* DROPOWN MENU */
 
+/* BUTTON STYLE */
 .dropbtn {
     background-color: #efefefef;
     color: black;
@@ -9,7 +10,7 @@
     cursor: pointer;
 
 }
-
+/* BUTTON POS. */
 .dropdown {
     display: inline-block;
     position:absolute;
@@ -17,7 +18,7 @@
     right:0;
     
 }
-
+/* CONTENT IN DROPDOWN */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -25,21 +26,21 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
-
+/* LINKS IN DROPDOWN */
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
-
+/* COLOUR */
 .dropdown-content a:hover {background-color: #f1f1f1}
-
+/* OPEN DIRECTION */
 .dropdown:hover .dropdown-content {
     display: block;
     bottom:100%;
 }
-
+/* DROPDOWN COLOUR WHILST HOVERING */
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
