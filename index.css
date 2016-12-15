@@ -80,7 +80,7 @@ body {
     background-color:#F8F9F9;
     width:99%;
     height:100%;
-        position: absolute;
+        position: static;
     
         background-color:#FDFEFE;
     width:98%;
