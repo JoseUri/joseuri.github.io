@@ -63,6 +63,14 @@ h1 {
     width:50%
 }
 
+h2 {
+ font-family: Arial;
+    font-style:italic;
+    font-size:30px;
+    color: #17202A;
+    text-align:center;
+}
+
 html {
     background-color:#e6e6d4;
 }
