@@ -71,6 +71,17 @@ h2 {
     text-align:center;
 }
 
+h3 {
+ font-family: Garadon;
+    font-size:25px;
+    color: #000000;
+    text-align:left;
+    border: 5px solid #800020;
+    padding: 10px;
+    margin:auto;
+    width: 50%;
+}
+
 html {
     background-color:#e6e6d4;
 }
