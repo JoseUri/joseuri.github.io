@@ -78,7 +78,8 @@ html {
 body {
     background-image:url("http://scuola.space/wp-content/uploads/2016/09/cropped-kv_consumer_850_pro_1920.jpg");
     width:70%;
-    margin:
+    height:100%;
+        position: absolute;
 }
 
 
