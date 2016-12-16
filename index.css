@@ -11,7 +11,8 @@
 
 }
 /* BUTTON POS. */
-.dropdown {
+.contact-dropdown {
+    border: 5px solid #800020;
     display: inline-block;
     position:absolute;
     bottom:0;
