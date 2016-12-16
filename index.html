@@ -1,9 +1,12 @@
+
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<link rel="shortcut icon" href="http://www.iconj.com/ico/v/x/vxz041fwia.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
@@ -16,34 +19,23 @@
 		<div class="page-header" style="vertical-align: middle">
 			<h1>Example page header</h1>
 		</div>
-<ul class="nav nav-tabs">
-  <li role="presentation" class="active"><a href="#">Home</a></li>
-  <li role="presentation"><a href="#">Profile</a></li>
-  <li role="presentation" class="dropdown">
-    <a class="dropdown-toggle"  data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-	    Contact Me <span class="caret">
-	    <ul>
-	    				<l1><a target="_blank" href="https://twitter.com/maestrodivoi">
-				<img src="https://loebig.files.wordpress.com/2013/10/twitter2.png" alt="Twitter"><br>Twitter</img>
-				</a>
-				</li>
-				<li><a href="mailto:joseuriarte323@gmail.com">
-				<img src="https://loebig.files.wordpress.com/2013/10/email.png" alt="Mail"><br>Mail</img>
-				</a>
-				</li>
-				<li> <a target="_blank" class="disabled">
-				<img src="https://loebig.files.wordpress.com/2013/10/facebook2.png" alt="Facebook"><br>Facebook</img>
-				</a>
-				</li>
-				<li> <a target ="_blank" href="https://www.linkedin.com/in/jose-uriarte-95b548124">
-				<img src="http://findicons.com/files/icons/819/social_me/32/linkedin.png" alt="LinkedIn"><br>LinkedIn</img>
-				</a>
-				</li>
-</ul>
-    </a>
-</ul>
-</span>
-
+		<ul class="nav nav-tabs">
+			<li role="presentation" class="active"><a href="#">Home</a></li>
+			<li role="presentation"><a href="#">Profile</a></li>
+			<li role="presentation" class="dropdown">
+			  <a class="dropdown-toggle" role="button" id="dropbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				Contact Me
+				<span class="caret"></span>
+			  </a>
+			  <ul class="dropdown-menu" aria-labelledby="dropbtn">
+				<li><a target="_blank" href="https://twitter.com/maestrodivoi"><img src="https://loebig.files.wordpress.com/2013/10/twitter2.png" alt="Twitter">&nbsp;Twitter</img></a></li>
+				<li><a target="_blank" class="disabled"><img src="https://loebig.files.wordpress.com/2013/10/facebook2.png" alt="Facebook">&nbsp;Facebook</img></a></li>
+				<li><a target="_blank" href="https://www.linkedin.com/in/jose-uriarte-95b548124"><img src="http://findicons.com/files/icons/819/social_me/32/linkedin.png" alt="LinkedIn">&nbsp;LinkedIn</img></a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="mailto:joseuriarte323@gmail.com"><img src="https://loebig.files.wordpress.com/2013/10/email.png" alt="Mail">&nbsp;Mail</img></a></li>
+			  </ul>
+			</li>
+		</ul>
 		<h2> Welcome to my Site </h2>
 		<h3> Subject </h3>
 		<div class="list">
@@ -72,22 +64,18 @@
 				</tr>
 			</table>
 		</div>
-		<div class="dropdown">
-			<button onclick="myFunction()" class="dropbtn">Contact Me</button>
-			<div id="myDropdown" class="dropdown-content">
-				<a target="_blank" href="https://twitter.com/maestrodivoi">
-				<img src="https://loebig.files.wordpress.com/2013/10/twitter2.png" alt="Twitter"><br>Twitter</img>
-				</a>
-				<a href="mailto:joseuriarte323@gmail.com">
-				<img src="https://loebig.files.wordpress.com/2013/10/email.png" alt="Mail"><br>Mail</img>
-				</a>
-				<a target="_blank" class="disabled">
-				<img src="https://loebig.files.wordpress.com/2013/10/facebook2.png" alt="Facebook"><br>Facebook</img>
-				</a>
-				<a target ="_blank" href="https://www.linkedin.com/in/jose-uriarte-95b548124">
-				<img src="http://findicons.com/files/icons/819/social_me/32/linkedin.png" alt="LinkedIn"><br>LinkedIn</img>
-				</a>
-			</div>
+		<div class="dropdown contact-dropdown">
+		  <button class="btn btn-default dropdown-toggle dropbtn" type="button" id="dropbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+			Contact Me
+			<span class="caret"></span>
+		  </button>
+		  <ul class="dropdown-menu" aria-labelledby="dropbtn">
+			<li><a target="_blank" href="https://twitter.com/maestrodivoi"><img src="https://loebig.files.wordpress.com/2013/10/twitter2.png" alt="Twitter">&nbsp;Twitter</img></a></li>
+			<li><a target="_blank" class="disabled"><img src="https://loebig.files.wordpress.com/2013/10/facebook2.png" alt="Facebook">&nbsp;Facebook</img></a></li>
+			<li><a target="_blank" href="https://www.linkedin.com/in/jose-uriarte-95b548124"><img src="http://findicons.com/files/icons/819/social_me/32/linkedin.png" alt="LinkedIn">&nbsp;LinkedIn</img></a></li>
+			<li role="separator" class="divider"></li>
+			<li><a href="mailto:joseuriarte323@gmail.com"><img src="https://loebig.files.wordpress.com/2013/10/email.png" alt="Mail">&nbsp;Mail</img></a></li>
+		  </ul>
 		</div>
 	</body>
 </html>
