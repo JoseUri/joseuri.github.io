@@ -1,6 +1,6 @@
 /* DROPOWN MENU */
-
 /* BUTTON STYLE */
+
 .dropbtn {
     background-color: #efefefef;
     color: black;
@@ -8,27 +8,28 @@
     font-size: 16px;
     border: none;
     cursor: pointer;
-
 }
 /* BUTTON POS. */
+
 .contact-dropdown {
     border: 5px solid #800020;
     display: inline-block;
-    position:absolute;
-    bottom:0;
-    right:0;
-    border: 
-    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border:
 }
 /* CONTENT IN DROPDOWN */
+
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 /* LINKS IN DROPDOWN */
+
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -36,101 +37,73 @@
     display: block;
 }
 /* COLOUR */
-.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
 /* OPEN DIRECTION */
+
 .dropdown:hover .dropdown-content {
     display: block;
-    bottom:100%;
+    bottom: 100%;
 }
 /* DROPDOWN COLOUR WHILST HOVERING */
+
 .dropdown:hover .dropbtn {
     background-color: #800020;
 }
 /* DROPDOWN MENU */
-
 /* TABLE */
-table, th, td {
+
+table,
+th,
+td {
     border: 1px solid black;
     padding: 15px;
-    text-align:left;
+    text-align: left;
 }
-
 /* HEADING 1 */
+
 h1 {
     border: 5px solid #800020;
-    text-align:center;
-    padding: 15px; 
-    background-color: #f5f5dc; 
-    margin:auto;
-    width:50%
+    text-align: center;
+    padding: 15px;
+    background-color: #f5f5dc;
+    margin: auto;
+    width: 50%
 }
-
 h2 {
- font-family: Arial;
-    font-style:italic;
-    font-size:20px;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 20px;
     color: #17202A;
-    text-align:left;
+    text-align: left;
 }
-
 h3 {
- font-family: Garadon;
-    font-size:25px;
+    font-family: Garadon;
+    font-size: 25px;
     color: #000000;
-    text-align:left;
+    text-align: left;
     border: 5px solid #800020;
     padding: 10px;
     width: 30%;
 }
-
 html {
-    background-color:#e6e6d4;
+    background-color: #e6e6d4;
 }
-
-#list {
+#list {} #table {} body {
+    /*  background-image:url("http://scuola.space/wp-content/uploads/2016/09/cropped-kv_consumer_850_pro_1920.jpg"); */
     
-}
-
-#table {
+    background-color: #F8F9F9;
+    width: 99%;
+    height: 100%;
+    position: static;
+    /* background-color:#FDFEFE; */
     
-}
-
-body {
-  /*  background-image:url("http://scuola.space/wp-content/uploads/2016/09/cropped-kv_consumer_850_pro_1920.jpg"); */
-    background-color:#F8F9F9;
-    width:99%;
-    height:100%;
-        position: static;
-    
-       /* background-color:#FDFEFE; */
-    height:auto;
+    height: auto;
     border: 5px solid #800020;
-
-    padding: 15px; 
-    background-color: #FDFEFE; 
-    margin:auto;
-    width:60%
-
-
+    padding: 15px;
+    background-color: #FDFEFE;
+    margin: auto;
+    width: 60%
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
