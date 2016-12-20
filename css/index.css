@@ -107,3 +107,27 @@ html {
     margin: auto;
     width: 60%
 }
+.name {
+  font-size: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin: 0;
+    color: #333;
+}
+.basic {
+      display: inline-block;
+    text-transform: capitalize;
+}
+.info {
+      margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
