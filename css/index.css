@@ -1,4 +1,21 @@
-#nav-tabs {
-    background-color:black;
-    color:226,226,226,1;
+.nav-tabs {
+  background-color:black;
+  font-size:14;
+}
+.nav-tabs > li > a {
+  color:lime;
+}
+.nav-tabs > li >a:hover {
+  color:red;
+
+}
+.nav-tabs > li >a:active {
+
+}
+h1 {
+  text-align:center;
+
+}
+h2 {
+  text-align:center;
 }
