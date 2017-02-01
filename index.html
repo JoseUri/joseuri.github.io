@@ -1,200 +1,124 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<!DOCTYPE html>
+<html >
 <head>
-    <link rel="icon" type="image/png" href="res/favicon.png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" crossorigin="anonymous" type="text/css" />
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous" type="text/javascript">
-    </script>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>
-        Yeah BOIIIIIIIIIIIIIII
-    </title>
-    <script src="index.js" type="text/javascript">
-    </script>
-    <link href="css/index.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <title>Allowing Choice</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
 </head>
-<!-- Touch My -->
+
 <body>
+  <html>
+<head>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	</script>
+	
+	<!-- FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet"> <!-- Ubuntu Mono -->
+	
+<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed|Ubuntu+Mono" rel="stylesheet"> <!-- Ubuntu Condensed -->
+	
+	
+	<title>Title</title>
+</head>
 
-        <script language=JavaScript>
-//Disable right mouse click Script
-//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive
-//For full source code, visit http://www.dynamicdrive.com
-
-var message="No Right Click!";
-
-///////////////////////////////////
-function clickIE4(){
-if (event.button==2){
-alert(message);
-return false;
-}
-}
-
-function clickNS4(e){
-if (document.layers||document.getElementById&&!document.all){
-if (e.which==2||e.which==3){
-alert(message);
-return false;
-}
-}
-}
-
-if (document.layers){
-document.captureEvents(Event.MOUSEDOWN);
-document.onmousedown=clickNS4;
-}
-else if (document.all&&!document.getElementById){
-document.onmousedown=clickIE4;
-}
-
-document.oncontextmenu=new Function("alert(message);return false")
-
-// --> 
-</script>
-    
-    <div class="page-header" style="vertical-align: middle">
-        <h1>
-        Website
-      </h1>
-    </div>
-    <div class="container">
-        <h2>
-        Welcome to my Site!
-      </h2>
-        <ul class="nav nav-tabs">
-            <li class="active">
-                <a data-toggle="tab" href="#home">Home</a>
-            </li>
-            <li>
-                <a data-toggle="tab" href="#menu1">SHIIIIIIIIEEEEEEEETT</a>
-            </li>
-            <li>
-                <a data-toggle="tab" href="#menu2">Suh Dude</a>
-            </li>
-            <li>
-                <a data-toggle="tab" href="#aboutme">About Me</a>
-            </li>
-            <li role="presentation" href="#" class="dropdown">
-                <a class="dropdown-toggle" role="button" id="dropbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Contact Me</a>
-                <ul class="dropdown-menu" aria-labelledby="dropbtn">
-                    <li>
-                        <a target="_blank" href="https://twitter.com/maestrodivoi"><img src="res/twitter.png" alt="Twitter" />&nbsp;Twitter</a>
-                    </li>
-                    <li>
-                        <a target="_blank" class="disabled"><img src="res/facebook.png" alt="“Facebook”" />&nbsp;Facebook</a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.linkedin.com/in/jose-uriarte-95b548124"><img src="res/linkedin.png" alt="“LinkedIn”" />&nbsp;LinkedIn</a>
-                    </li>
-                    <li>
-                        <a href="mailto:joseuriarte323@gmail.com"><img src="res/email.png" alt="“eMail”" />&nbsp;eMail</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <div class="tab-content">
-            <div id="home" class="tab-pane fade in active">
-                <h3>
-            HOME
-          </h3>
-<!--
-………………….._,,-~’’’¯¯¯’’~-,,
-………………..,-‘’ ; ; ;_,,---,,_ ; ;’’-,…………………………….._,,,---,,_
-……………….,’ ; ; ;,-‘ , , , , , ‘-, ; ;’-,,,,---~~’’’’’’~--,,,_…..,,-~’’ ; ; ; ;__;’-,
-……………….| ; ; ;,’ , , , _,,-~’’ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ¯’’~’-,,_ ,,-~’’ , , ‘, ;’,
-……………….’, ; ; ‘-, ,-~’’ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;’’-, , , , , ,’ ; |
-…………………’, ; ;,’’ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;’-, , ,-‘ ;,-‘
-………………….,’-‘ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;’’-‘ ;,,-‘
-………………..,’ ; ; ; ; ; ; ; ; ; ; ; ;__ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ‘-,’
-………………,-‘ ; ; ; ; ; ; ; ; ; ;,-‘’¯: : ’’-, ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; _ ; ; ; ; ;’,
-……………..,’ ; ; ; ; ; ; ; ; ; ; ;| : : : : : :| ; ; ; ; ; ; ; ; ; ; ; ; ,-‘’¯: ¯’’-, ; ; ;’,
-…………….,’ ; ; ; ; ; ; ; ; ; ; ; ‘-,_: : _,-‘ ; ; ; ; ; ; ; ; ; ; ; ; | : : : : : :| ; ; ; |
-……………,’ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ¯¯ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;’-,,_ : :,-‘ ; ; ; ;|
-…………..,-‘ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ,,-~’’ , , , , ,,,-~~-, , , , _ ; ; ;¯¯ ; ; ; ; ;|
-..…………,-‘ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;,’ , , , , , , ,( : : : : :) , , , ,’’-, ; ; ; ; ; ; ; ;|
-……….,-‘ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;’, , , , , , , , ,’~---~’’ , , , , , ,’ ; ; ; ; ; ; ; ;’,
-…….,-‘’ ; _, ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ‘’~-,,,,--~~’’’¯’’’~-,,_ , ,_,-‘ ; ; ; ; ; ; ; ; ; ‘,
-….,-‘’-~’’,-‘ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; | ; ; | . . . . . . ,’; ,’’¯ ; ; ; ; ; ; ; ; ; ,_ ; ‘-,
-……….,’ ; ;,-, ; ;, ; ; ;, ; ; ; ; ; ; ; ; ; ; ‘, ; ;’, . . . . .,’ ;,’ ; ; ; ;, ; ; ;,’-, ; ;,’ ‘’~--‘’’
-………,’-~’ ,-‘-~’’ ‘, ,-‘ ‘, ,,- ; ; ; ; ; ; ; ; ‘, ; ; ‘~-,,,-‘’ ; ,’ ; ; ; ; ‘, ;,-‘’ ; ‘, ,-‘, 
-……….,-‘’ ; ; ; ; ; ‘’ ; ; ;’’ ; ; ; ; ; ; ; ; ; ; ‘’-,,_ ; ; ; _,-‘ ; ; ; ; ; ;’-‘’ ; ; ; ‘’ ; ;’-,
-……..,-‘ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;¯¯’’¯ ; ; ; ; ; ; ; ; , ; ; ; ; ; ; ; ; ;’’-,
-……,-‘ ; ; ; ; ; ; ; ,, ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; |, ; ; ; ; ; ; ; ; ; ; ‘-,
-…..,’ ; ; ; ; ; ; ; ;,’ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;|..’-,_ ; ; ; , ; ; ; ; ; ‘,
-….,’ ; ; ; ; ; ; ; ; | ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;,’…….’’’,-~’ ; ; ; ; ; ,’
-…,’ ; ; ; ; ; ; ; ; ;’~-,,,,,--~~’’’’’’~-,, ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;,’…..,-~’’ ; ; ; ; ; ; ,-
-…| ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ‘, ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;,’…,-‘ ; ; ; ; ; ; ; ;,-‘
-…’, ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ,-‘ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ,’….’, ; ; ; ; _,,-‘’
-….’, ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ,-‘’ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;,’…….’’~~’’¯
-…..’’-, ; ; ; ; ; ; ; ; ; ; ; ; ; ;_,,-‘’ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ,-‘
-………’’~-,,_ ; ; ; ; _,,,-~’’ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;,-‘
-………..| ; ; ;¯¯’’’’¯ ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;,,-‘
-………..’, ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;,-‘
-…………| ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ;|
-…………’, ; ; ; ; ; ; ; ; ; ~-,,___ ; ; ; ; ; ; ; ; ; ; ; ; ; ;’,
-………….’, ; ; ; ; ; ; ; ; ; ; ;,-‘….’’-, ; ; ; ; ; ; ; ; ; ; ; ; ‘,
-………..,’ ‘- ; ; ; ; ; ; ; ; ;,-‘’……….’-, ; ; ; ; ; ; ; ; ; ; ; ‘,
-……….,’ ; ;’ ; ; ; ; ; ; ,,-‘…………….’, ; ; ; ; ; ; ; ; ; ; ;’,
-………,’ ; ; ; ; ; ; ; ;,-‘’…………………’’-, ; ; ; ; ; ; ; ; ; |
-……..,’ ; ; ; ; ; ; ;,,-‘………………………’’, ; ; ; ; ; ; ; ; |
-……..| ; ; ; ; ; ; ;,’…………………………,’ ; ; ; ; ; ; ; ;,’
-……..| ; ; ; ; ; ; ,’………………………..,-‘ ; ; ; ; ; ; ; ,’’
-……..| ; ; ; ; ; ;,’……………………….,-‘ ; ; ; ; ; ; ; ,-‘
-……..’,_ , ; , ;,’……………………….,’ ; ; ; ; ; ; ; ,-‘
-………’,,’,¯,’,’’|……………………….| ; ; ; ; ; ; ; ; ‘--,,
-………….¯…’’………………………..’-, ; ; ; ; ; ; ; ; ; ;’’~,,
-……………………………………………’’-,, ; ; ; ; ; ; ; ; ; ;’’~-,,
-………………………………………………..’’-, ; ; ; ; ; ,,_ ; ;’-,’’-,
-…………………………………………………..’, ; ; ; ; ; ; ‘-,__,\\--\\.
-……………………………………………………’-, ; ; ;,,-~’’’ \\ , ,|, |
-………………………………………………………’’~-‘’_ , , ,,’,_/--‘
-
--->
-                <p>
-                    Welcome to my Page! My name is Jose Uriarte! And I made this website with no help of others. I take all credit. Sorry <em><strong>TheNeolutionist</strong></em>.
-                </p>
-            </div>
-            <div id="menu1" class="tab-pane fade">
-                <h3>
-                    Some gangsta shiiiiiiiiieeet
-                </h3>
-
-            </div>
-            <div id="menu2" class="tab-pane fade">
-                <h3>
-                    Only Real Ni🅱️🅱️as Don't Sleep         
-                </h3>
-
-                
+<body>
+	<div class="page-header" style="color:#002f8d;">
+  <h1>Allowing Choice <small> "The Choice Is Yours" </small></h1>
 </div>
-            <div id="aboutme" class="tab-pane fade">
-                <h3>About Me
-              </h3>
-              <h4 class="name">
-            Jose Uriarte
-          </h4>
-              <br>
-              <h5 class="basic">
-                Test
-              </h5>
-              <p class="info">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
-                sed do eiusmod tempor incididunt ut labore et dolore <br>
-                magna aliqua. Ut enim ad LOL NIGGA minim veniam, quis nostrud <br>
-                exercitation ullamco laboris nisi ut aliquip ex ea <br>
-                commodo consequat. Duis aute irure dolor in reprehenderit <br>
-                in voluptate velit esse cillum dolore eu fugiat nulla <br>
-                pariatur. Excepteur sint occaecat cupidatat non proident, <br>
-                sunt in culpa qui officia deserunt mollit anim id est laborum. 
-              </p>
-              
-          </div>
-                </div>
-            </div>
+	<div class="container">
+		<div class="jumbotron">
+			<h1 class="hero-headline" style="color:#002f8d">Allowing Choice</h1>
+
+
+			<p class="typography-product-reduced">Why it's good, but can be bad.</p>
+		</div>
+	</div>
+	<div id="show">
+	<blockquote>
+ <p>
+  <span data-duration="1.1" data-delay=".23" data-blur="6">"We&nbsp;</span>
+	   <span data-duration="1.3" data-delay=".23" data-blur="6">allow&nbsp;</span>
+  <span data-duration="1.4" data-delay=".43" data-blur="3">you&nbsp;</span>
+  <span data-duration="1.8" data-delay=".42" data-blur="5">to&nbsp;</span>
+  <span data-duration="1.2" data-delay=".25" data-blur="9">have&nbsp;</span>
+  <span data-duration="1.7" data-delay=".30" data-blur="4">your&nbsp;</span>
+  <span data-duration="1.2" data-delay=".29" data-blur="3">own&nbsp;</span>
+  <span data-duration="1.4" data-delay=".26" data-blur="5">choice&nbsp;</span>
+  <span data-duration="1.7" data-delay=".19" data-blur="9">in&nbsp;</span>
+  <span data-duration="1.2" data-delay=".11" data-blur="5">this&nbsp;</span>
+  <span data-duration="1.9" data-delay=".19" data-blur="2" >country.&nbsp;</span>
+  <span data-duration="1.2" data-delay=".36" data-blur="9" >But&nbsp;</span>
+  <span data-duration="1.8" data-delay=".17" data-blur="3" >we&nbsp;</span>
+  <span data-duration="1.2" data-delay=".30" data-blur="10" >are&nbsp;</span>
+  <span data-duration="1.5" data-delay=".50" data-blur="4" >the&nbsp;</span>
+  <span data-duration="1.8" data-delay=".19" data-blur="2" >ones&nbsp;</span>
+  <span data-duration="1.3" data-delay=".18" data-blur="4" >who say so.”&nbsp;</span>
+ </p>
+		<cite class="author">-Rich People<br><cite>
+ <cite>It's Your Choice</cite>
+</blockquote>
+			<br>
+	</div>
+	<div id="container_2">
+		<div id="par_1" >
+			<p style="font-size:28px;font-family:'Ubuntu Mono';color:#4e5375;">
+ 
+
+				Pros
+				<hr>
+			</p>
+		<p style="font-family:'Ubuntu Mono'; font-size:18px;"> Many people, or the average Joe, say that we have our own choices in this world, and I can agree to that. It's a positive thing about being a citizen of the U.S.A. Choice is very easy, but can turn difficult for people under stress or in difficult situations, but the input is still the same. Choices are about: <strong> 0 or 1, Yes or No, Up or Down, Left or Right, Black or White.</strong> Choice, like voting for our own representative, is a great way for anyone to become involved with the government. We have the ability to start our own lives, the choice of picking what you want when you want. That is a huge privilege.
+			</p>
+		<hr>
+					<p style="font-size:28px;font-family:'Ubuntu Mono';color:#4e5375;">
+						Cons
+		</p>
+		<hr>
+		<p style="font-family:'Ubuntu Mono'; font-size:18px;">The minority, people who are <strong>WOKE</strong> understand the fact that when we vote, we don't really have a choice on who we vote for as our representative. The Electoral College chooses for us based on our votes during the elections. Another reason why choice is bad is because not many people can even make a choice for themselves. Many people in this world are simpletons who need to be shown the correct way to go in life. “Some men are born to rule, but most men are born to be ruled” - David Rockefeller. Not everyone is born to choose their own life, but others are born with chances.
+		</p>
+		<hr>
+		<p style="font-size:28px;font-family:'Ubuntu Mono';color:#4e5375;">How It Impacts Govt. </p>
+		<hr>
+		<p style="font-family:'Ubuntu Mono'; font-size:18px;">The principle of Allowing Choices is very crucial in our Government because it allows what the Founding Fathers wanted for us: Freedom of Choice.
+		</p>
+		<hr>
+<div class="container">
+	<div class="row">
+	<svg viewBox="0 0 960 300">
+    <symbol id="s-text">
+		<text text-anchor="middle" x="50%" y="80%">Choice</text>
+	</symbol>
+
+	<g class = "g-ants">
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+	</g>
+</svg>
+    </div>
+</div>
+		
+		</div>
+		</div>
+		
+</body>
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
+
+    <script src="js/index.js"></script>
+
 </body>
 </html>
